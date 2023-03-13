@@ -1,5 +1,5 @@
 #Love calculator 
-
+import random 
 yourname = input('Enter your name \n')
 hername = input('Enter her name \n')
 combined = yourname + hername 
@@ -30,6 +30,14 @@ elif (truelove >='40') and (truelove <='50'):
     print(f'You are alright together {truelove}')
 else:
     print(f' Your score is :{truelove}%')
+
+
+#Another way to do this
+
+name1 = input('Enter your name ')
+name2 =input('Enter her name ')
+result = random.randint(1, 100)
+print(f'The Love between {name1} and {name2} is {result}%')
 
     
 
